@@ -24,6 +24,7 @@ const Navbar = () => {
     const location = useLocation();
 
     const { openSignIn } = useClerk()
+    const { openSignUp } = useClerk()
     const { user, setShowHotelReg, isOwner, navigate } = useAppContext()
 
     useEffect(() => {
